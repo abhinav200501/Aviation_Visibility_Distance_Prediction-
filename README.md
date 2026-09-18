@@ -72,3 +72,26 @@ GridSearchCV
 Final Random Forest Model
         ↓
 Visibility Distance Prediction
+
+---
+
+Exploratory Data Analysis
+Dataset Understanding
+
+The first step was to understand the structure and characteristics of the aviation weather dataset.
+
+The dataset contains weather observations along with visibility measurements.
+
+The major features analyzed were:
+
+Feature	Description
+DryBulbTempF	Dry bulb air temperature
+WetBulbTempF	Wet bulb temperature
+DewPointTempF	Dew point temperature
+RelativeHumidity	Relative humidity of the air
+WindSpeed	Wind speed
+WindDirection	Direction of wind
+StationPressure	Atmospheric pressure at the station
+SeaLevelPressure	Atmospheric pressure adjusted to sea level
+Precipitation	Amount of precipitation
+Visibility	Target variable representing visibility distance
